@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #6AB2FA;
+  justify-content: initial;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-brand {
+  padding: 0.25em;
+  font-size: x-large;
+}
+
+.nav-item {
+  font-size: medium;
+}
+
+

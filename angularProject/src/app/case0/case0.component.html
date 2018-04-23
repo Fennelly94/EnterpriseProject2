@@ -1,0 +1,70 @@
+<h1>Case 1</h1><table>
+  <tr>
+    <th><h4>Description</h4></th>
+    <th><h4>Exchange</h4></th>
+    <th><h4>Symbol</h4></th>
+    <th><h4>Date In</h4></th>
+    <th><h4>Date Out</h4></th>
+    <th><h4>Qty</h4></th>
+    <th><h4>Total Qty</h4></th>
+    <th><h4>Cost</h4></th>
+    <th><h4>Purchase Price</h4></th>
+    <th><h4>Price</h4></th>
+    <th><h4>Value</h4></th>
+    <th><h4>Detail Gain/Loss</h4></th>
+    <th><h4>Cumulative Gain/Loss</h4></th>
+    <th><h4>% Gain/Loss</h4></th>
+    <th><h4>Sell Costs</h4></th>
+  </tr>
+  <tr *ngFor="let eachIse of ise.data">
+    <td>{{eachIse.company}}</td>
+    <td>{{ise.exchange}}</td>
+    <td>{{eachIse.symbol}}</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>{{eachIse.price}}</td>
+    <td>**</td>
+    <td>{{eachIse.change}}</td>
+    <td>**</td>
+    <td>{{eachIse.pChg}}</td>
+    <td>**</td>
+  </tr>
+  <tr *ngFor="let eachFtse of ftse.data">
+    <td>{{eachFtse.company}}</td>
+    <td>{{ftse.exchange}}</td>
+    <td>{{eachFtse.symbol}}</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>{{eachFtse.price}}</td>
+    <td>**</td>
+    <td>{{eachFtse.change}}</td>
+    <td>**</td>
+    <td>{{eachFtse.pChg}}</td>
+    <td>**</td>
+  </tr>
+ <tr *ngFor="let eachCoin of coinranking.data">
+    <td>{{eachCoin.company}}</td>
+    <td>{{coinranking.exchange}}</td>
+    <td>{{eachCoin.symbol}}</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>**</td>
+    <td>{{eachCoin.price}}</td>
+    <td>**</td>
+    <td>{{eachCoin.change}}</td>
+    <td>**</td>
+    <td>{{eachCoin.pChg}}</td>
+    <td>**</td>
+  </tr>
+  </table>
